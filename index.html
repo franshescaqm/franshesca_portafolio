@@ -1,21 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" href="css/maain.css">
+    <link type="text/css" rel="stylesheet" href="vendors/materialize/css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/index.css">
     <title>Document</title>
 </head>
+
 <body>
+    <!--the start of Navbar-->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="sass.html" class="nav-text">ABOUT ME</a>
+                    </li>
+                    <li>
+                        <a href="badges.html" class="nav-text">PORTAFOLIO</a>
+                    </li>
+                    <li>
+                        <a href="collapsible.html" class="nav-text">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="mobile.html" class="nav-text">CONTACT ME</a>
+                    </li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li>
+                        <a href="sass.html" class="nav-text">ABOUT ME</a>
+                    </li>
+                    <li>
+                        <a href="badges.html" class="nav-text">PORTAFOLIO</a>
+                    </li>
+                    <li>
+                        <a href="collapsible.html" class="nav-text">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="mobile.html" class="nav-text">CONTACT ME</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Section introduction  class="main-picture-->
+    <div class="parallax-container image-div">
+        <div class="row">
+            <figure class="purple-div parallax img-responsive">
+                <div class="center-align personal-statement">
+                    <p>Problem? I got the Solution.</p>
+                </div>
+            </figure>
+        </div>
+    </div>
+    <!-- About me-->
+    <div class="parallax-container">
+        <div class="row">
+            <div class="col l12">
+                <div class="col l10">
+                    <p class="name right">Franshesca QM: UX Designer JR.</p>
+                </div>
+                <figure>
+                    <img src="assets/img/about-me.jpg" class="circle first-image left img-responsive" alt="first-image">
+                </figure>
+                <div>
+                    <div class="col l8 right description">
+                        <p> <em>
+                            To whom the person that is reading this section... I would like to tell yo that  I love to read and write and wish to connect with people through writing but at the time, I would like to connect with them through visual design... They do say that a picture is worth a thousand words...
+                        </em>
+                        <br>
+                        <br>
+                            To start connecting with users like you, I decided to study on LABORATORIA with an agile learning workflow. And now i have Xperience on responsive web design, User Interface, mock-ups and research; Within this field I specialize on personal interviews and recollection of data for an excellent product. Highly empathize with customer´s needs to make a user-friendly yet appealing and simple solution for company success and repeat bussiness. Additionally, i´m fluent on spanish and English language.
+                            HOW GREAT IS THIS?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="vendors/materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
 </body>
+
 </html>

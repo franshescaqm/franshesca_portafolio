@@ -1,1 +1,91 @@
+/*Universal style*/
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Quicksand', sans-serif;
+  }
 
+  /*navbar*/
+  nav {
+      background-color: #fff;
+  }
+
+  .nav-text {
+    color: #7e57c2;
+  }
+
+  nav .brand-logo {
+    color: #7e57c2;
+  }
+  
+  .button-collapse {
+    color: #7e57c2;
+  }
+
+  /*Introduction*/
+
+.purple-div {
+    background: rgba(149, 117, 205, 0.5);
+}
+
+  .image-div {
+    background-image: url(../assets/img/tokyo.jpg);
+    z-index: 1; 
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+  }
+
+  @media (max-width: 768px) { 
+    .image-div {
+        background-image: url(../assets/img/tokyo.jpg);
+        z-index: 1; 
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+        width: 100%;
+      }
+   }
+
+  .personal-statement {
+    padding-top: 2em;
+    color: #fff;
+    font-weight: 800;
+    font-size: 80px;
+  }
+
+  @media (max-width: 768px) { 
+    .personal-statement {
+    padding-top: 0.8em;
+    color: #fff;
+    font-weight: 800;
+    font-size: 65px;
+  }
+   }
+
+   /*about me section*/
+   .name{
+    padding-top: 1.5em; 
+    padding-bottom: 1.5em;
+    font-size: 35px;
+   }
+
+   .first-image {
+     position: relative;
+     width: 22em;
+     filter: grayscale(0.9);
+   }
+
+   figure .first-image :hover {
+    color: #7e57c2 !important;
+    transition:all .5s ease-in-out !important;
+   }
+
+   .description {
+       font-size: 20px;
+   }
