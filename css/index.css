@@ -81,11 +81,6 @@
      filter: grayscale(0.9);
    }
 
-   figure .first-image :hover {
-    color: #7e57c2 !important;
-    transition:all .5s ease-in-out !important;
-   }
-
    .description {
        font-size: 19px;
        font-weight: 500;
