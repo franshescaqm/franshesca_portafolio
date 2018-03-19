@@ -7,28 +7,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Quicksand" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="vendors/materialize/css/materialize.min.css" media="screen,projection" />
     <link rel="stylesheet" href="css/index.css">
-    <title>Document</title>
+    <title>FQM</title>
 </head>
 
 <body>
     <!--the start of Navbar-->
-    <div class="navbar-fixed">
+    <div class="navbar-fixed ">
         <nav>
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#!" class="brand-logo">FRANSHESCA</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse">
                     <i class="material-icons">menu</i>
                 </a>
                 <ul class="right hide-on-med-and-down">
                     <li>
-                        <a href="sass.html" class="nav-text">ABOUT ME</a>
+                        <a href="#about-me" class="nav-text">ABOUT ME</a>
                     </li>
                     <li>
-                        <a href="badges.html" class="nav-text">PORTAFOLIO</a>
+                        <a href="#portafolio" class="nav-text">PORTAFOLIO</a>
                     </li>
                     <li>
                         <a href="collapsible.html" class="nav-text">SKILLS</a>
@@ -54,10 +54,10 @@
             </div>
         </nav>
     </div>
-    <!-- Section introduction  class="main-picture-->
-    <div class="parallax-container image-div">
+    <!--Introduction-->
+    <div class="parallax-container image-div" id="index-banner">
         <div class="row">
-            <figure class="purple-div parallax img-responsive">
+            <figure class="parallax purple-div">
                 <div class="center-align personal-statement">
                     <p>Problem? I got the Solution.</p>
                 </div>
@@ -65,30 +65,203 @@
         </div>
     </div>
     <!-- About me-->
-    <div class="parallax-container">
+    <div class="parallax-container white-background" id="about-me">
         <div class="row">
             <div class="col l12">
                 <div class="col l10">
-                    <p class="name right">Franshesca QM: UX Designer JR.</p>
+                    <p class="name right hide-on-med-and-down">Franshesca QM: UX Designer JR.</p>
+                    <p class="center-align hide-on-med-and-up name">Franshesca QM: UX Designer JR.</p>
                 </div>
                 <figure>
-                    <img src="assets/img/photo-img.jpg" class="circle first-image left img-responsive" alt="first-image">
+                    <img src="assets/img/photo-img.jpg" class="circle first-image left img-responsive hide-on-med-and-down" alt="first-image">
+                    <img src="assets/img/photo-img.jpg" class="col s12 center-align circle first-image hide-on-med-and-up" alt="first-image">
                 </figure>
                 <div>
                     <div class="col l8 right description">
-                        <p> <em>
-                            To whom the person that is reading this section... my biggest passion is to read, specially to write and to connect with people through this but at the time, I would like to connect with them through visual design... They do say that a picture is worth a thousand words...
-                        </em>
-                        <br>
-                        <br>
-                            To start connecting with users like you, I decided to study on LABORATORIA with an agile learning workflow. And now i have Xperience on responsive web design, User Interface, mock-ups and research; Within this field I specialize on personal interviews and recollection of data for an excellent product. Highly empathize with customer´s needs to make a user-friendly yet appealing and simple solution for company success and repeat bussiness.
-                            HOW GREAT IS THIS?
+                        <p class="col l12 s12">
+                            <em>
+                                My passion for visual design comes from my love of reading and writing. To read and write is to imagine and create different
+                                worlds, allowing me to explore the dephts of my imagination and bring out new ways to connect
+                                and emphatize with people. Through this I am able to find creative and simple solutions for
+                                problems in the real world.
+                            </em>
+                            <br>
+                            <br>
+                            <!-- To start connecting with users like you, I decided to study on LABORATORIA with an agile learning workflow. And now i have Xperience on responsive web design, User Interface, mock-ups and research; Within this field I specialize on personal interviews and recollection of data for an excellent product. Highly empathize with customer´s needs to make a user-friendly yet appealing and simple solution for company success and repeat bussiness.-->
+                            After a turn of life changing events at the age of six, my family decided to move to the United States. Seven years later,
+                            it was time to go back to my home country, Peru. It was a mixture of excitement and doubt, leaving
+                            known things behind and embracing a new journey. Coming back was full of new challenges, such
+                            as learning a new language, customs, and dealing with an important family loss. This shaped who
+                            I became and made me understand that my goal in life is to find creative and simple solutions
+                            for people. That´s my
+                            <b>challenge</b>.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--portafolio-->
+    <div class="parallax-container second-image-div" id="portafolio">
+        <div class="row">
+            <div class="col l12 second-purple-div">
+                <p class="title-white center align col l12 col s12">PORTAFOLIO</p>
+                <!-- first project -->
+                <div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/img/web-ver.png">
+                                <span class="card-title ">LABCAR</span>
+                            </div>
+                            <div class="card-content">
+                                <p>
+                                    LabCar is a responsive website where the user, can not only order the taxi service for their desired destination but use
+                                    it as a source of income for those who wish to join us drivers</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://franshescaqm.github.io/lab-car-boilerplate/">Visualize web version here</a>
+                                <br>
+                                <a href="https://github.com/franshescaqm/lab-car-boilerplate">Visualize GitHub link HERE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second project -->
+                <div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/img/terminal.png">
+                                <span class="card-title ">La Terminal</span>
+                            </div>
+                            <div class="card-content">
+                                <p>
+                                    We carried out an exhaustive investigation of the users that use inter-provincial bus and to be able to improve the user
+                                    experience, we have made a web prototype for an easy, fast and friendly search in their
+                                    purchase
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://marvelapp.com/2jd0e93/screen/38692947">Visualize prototype web link HERE</a>
+                                <br>
+                                <a href="https://github.com/franshescaqm/UX_Bux">Visualize Github link HERE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Third project -->
+                <div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="assets/img/terminal.png">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
+                                    because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- download CV button -->
+                <div class="col l12 center-align">
+                    <a class="waves-effect waves-light btn-large" href="assets/cv/">
+                        <i class="material-icons">get_app</i>
+                        <span> Download CV</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Skills-->
+    <div class="container">
+        <div class="row">
+            <div class="col l12">
+                <h2 class="center-align skills-title">Technical Skills</h2>
+                <div class="col s6 l2">
+                    <p>
+                        <b> HTML5</b>
+                        <ul>
+                            <li>Info. Organization</li>
+                            <li>Web Structures</li>
+                        </ul>
+                    </p>
+                </div>
+                <br>
+                <div class="col s6 l2">
+                    <p>
+                        <b> CSS3</b>
+                    </p>
+                    <ul>
+                        <li>Fonts</li>
+                        <li>Color</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="col s6 l2">
+                    <p>
+                        <i class="material-icons">search</i>
+                        <b> UX </b>
+                    </p>
+                    <ul>
+                        <li>Research</li>
+                        <li>User Stories</li>
+                        <li>Interviews</li>
+                        <li>Sketch</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="col s6 l2">
+                    <p>
+                        <b> Bootstrap & Materialize </b>
+                    </p>
+                    <ul>
+                        <li>Frameworks</li>
+                        <li>Fast web design</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="col s6 l2">
+                    <p>
+                        <b> Figma </b>
+                    </p>
+                    <ul>
+                        <li>Interface design</li>
+                        <li> Simple Prototype</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="col s6 l2">
+                    <p>
+                        <b> Marvel </b>
+                    </p>
+                    <ul>
+                        <li>Sketch</li>
+                        <li>Mochups</li>
+                    </ul>
+                </div>
+                <br>
+                <br>
+                <div class="col l12">
+                    <h2 class="center-align skills-title">Soft Skills</h2>
+                    <div class="col s6 m6 center-align">
+                        <img src="assets/img/best_squad.png" class="icon-size" alt="award-best-squad">
+                        <p></p>
+                    </div>
+                    <div class="col s6 m6 center-align">
+                        <img src="assets/img/rockin_icon.png" class="icon-size" alt="award-rockin-sprint">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
