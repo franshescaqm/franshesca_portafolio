@@ -17,9 +17,9 @@
 <body>
     <!--the start of Navbar-->
     <div class="navbar-fixed ">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">FRANSHESCA</a>
+        <nav role="navigation">
+            <div class="nav-wrapper container">
+                <a href="#!" id="logo-container" class="brand-logo">FRANSHESCA</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse">
                     <i class="material-icons">menu</i>
                 </a>
@@ -31,29 +31,30 @@
                         <a href="#portafolio" class="nav-text">PORTAFOLIO</a>
                     </li>
                     <li>
-                        <a href="collapsible.html" class="nav-text">SKILLS</a>
+                        <a href="#skills" class="nav-text">SKILLS</a>
                     </li>
                     <li>
-                        <a href="mobile.html" class="nav-text">CONTACT ME</a>
+                        <a href="#contact-me" class="nav-text">CONTACT ME</a>
                     </li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li>
-                        <a href="sass.html" class="nav-text">ABOUT ME</a>
+                        <a href="#about-me" class="nav-text">ABOUT ME</a>
                     </li>
                     <li>
-                        <a href="badges.html" class="nav-text">PORTAFOLIO</a>
+                        <a href="#portafolio" class="nav-text">PORTAFOLIO</a>
                     </li>
                     <li>
-                        <a href="collapsible.html" class="nav-text">SKILLS</a>
+                        <a href="#skills" class="nav-text">SKILLS</a>
                     </li>
                     <li>
-                        <a href="mobile.html" class="nav-text">CONTACT ME</a>
+                        <a href="#contact-me" class="nav-text">CONTACT ME</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
+
     <!--Introduction-->
     <div class="parallax-container image-div" id="index-banner">
         <div class="row">
@@ -137,9 +138,9 @@
                             </div>
                             <div class="card-content">
                                 <p>
-                                    We carried out an exhaustive investigation of the users that use inter-provincial bus and to be able to improve the user
-                                    experience, we have made a web prototype for an easy, fast and friendly search in their
-                                    purchase
+                                    We carried out an exhaustive investigation to improve the user experience of buying tickets online for clients that use inter-provincial
+                                    bus for their trips; As a group, we made a web prototype for an easy, fast and friendly
+                                    search in their purchase.
                                 </p>
                             </div>
                             <div class="card-action">
@@ -155,15 +156,17 @@
                     <div class="col s12 m4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="assets/img/terminal.png">
-                                <span class="card-title">Card Title</span>
+                                <img src="assets/img/encore_2.jpg">
+                                <span class="card-title"></span>
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                    because I require little markup to use effectively.</p>
+                                <p>A mobile app prototype has been created to ease the finding of artists and companies so they
+                                    can negotiate in a simple and effective way and in result increase their income</p>
                             </div>
                             <div class="card-action">
-                                <a href="#">This is a link</a>
+                                <a href="https://marvelapp.com/430gj5i/screen/40113000">Visualize phone prototype link HERE</a>
+                                <br>
+                                <a href="https://github.com/franshescaqm/ENCORE">Visualize Github link HERE</a>
                             </div>
                         </div>
                     </div>
@@ -179,88 +182,144 @@
         </div>
     </div>
     <!--Skills-->
-    <div class="container">
-        <div class="row">
-            <div class="col l12">
-                <h2 class="center-align skills-title">Technical Skills</h2>
-                <div class="col s6 l2">
-                    <p>
-                        <b> HTML5</b>
-                        <ul>
-                            <li>Info. Organization</li>
-                            <li>Web Structures</li>
+    <div class="container" id="skills">
+        <div class="section">
+            <div class="row">
+                <h2 class="center">Technical Skills</h2>
+                <div class="col s12 m3">
+                    <div class="icon-block">
+                        <h2 class="center brown-text">
+                            <i class="small material-icons">code</i>
+                        </h2>
+                        <h5 class="center">Web Structure</h5>
+
+                        <ul class="center">
+                            <li>HTML5</li>
+                            <li>CCS3</li>
+                            <li>Bootstrap V3.3.7</li>
+                            <li>Material Design 1.0.0 BETA</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
-                <br>
-                <div class="col s6 l2">
-                    <p>
-                        <b> CSS3</b>
-                    </p>
-                    <ul>
-                        <li>Fonts</li>
-                        <li>Color</li>
-                    </ul>
+
+                <div class="col s12 m3">
+                    <div class="icon-block">
+                        <h2 class="center brown-text">
+                            <i class="small material-icons">lightbulb_outline</i>
+                        </h2>
+                        <h5 class="center">Ideate</h5>
+                        <ul class="center">
+                            <li>User Personas</li>
+                            <li>Storytelling</li>
+                            <li>Business Model Canvas</li>
+                            <li>Affinity Map</li>
+                        </ul>
+                    </div>
                 </div>
-                <br>
-                <div class="col s6 l2">
-                    <p>
-                        <i class="material-icons">search</i>
-                        <b> UX </b>
-                    </p>
-                    <ul>
-                        <li>Research</li>
-                        <li>User Stories</li>
-                        <li>Interviews</li>
-                        <li>Sketch</li>
-                    </ul>
+
+                <div class="col s12 m3">
+                    <div class="icon-block">
+                        <h2 class="center brown-text">
+                            <i class="small material-icons">search</i>
+                        </h2>
+                        <h5 class="center">UX Research</h5>
+
+                        <ul class="center">
+                            <li>Qualitative Research</li>
+                            <li>Quantitative Research</li>
+                            <li>Interviews</li>
+                        </ul>
+                    </div>
                 </div>
-                <br>
-                <div class="col s6 l2">
-                    <p>
-                        <b> Bootstrap & Materialize </b>
-                    </p>
-                    <ul>
-                        <li>Frameworks</li>
-                        <li>Fast web design</li>
-                    </ul>
+
+                <div class="col s12 m3">
+                    <div class="icon-block">
+                        <h2 class="center brown-text">
+                            <i class="material-icons">create</i>
+                        </h2>
+                        <h5 class="center">Prototyping</h5>
+
+                        <ul class="center">
+                            <li>Figma</li>
+                            <li>Marvel</li>
+                            <li>Sketching</li>
+                        </ul>
+                    </div>
                 </div>
-                <br>
-                <div class="col s6 l2">
-                    <p>
-                        <b> Figma </b>
-                    </p>
-                    <ul>
-                        <li>Interface design</li>
-                        <li> Simple Prototype</li>
-                    </ul>
-                </div>
-                <br>
-                <div class="col s6 l2">
-                    <p>
-                        <b> Marvel </b>
-                    </p>
-                    <ul>
-                        <li>Sketch</li>
-                        <li>Mochups</li>
-                    </ul>
-                </div>
-                <br>
-                <br>
                 <div class="col l12">
                     <h2 class="center-align skills-title">Soft Skills</h2>
                     <div class="col s6 m6 center-align">
                         <img src="assets/img/best_squad.png" class="icon-size" alt="award-best-squad">
-                        <p></p>
+                        <h5 class="center">Teamwork</h5>
+                        <br>
+                        <p>This award was given on two different occasions since both groups, where I was in, reached the goal,
+                            proposed by Laboratoria, as a team. </p>
                     </div>
                     <div class="col s6 m6 center-align">
                         <img src="assets/img/rockin_icon.png" class="icon-size" alt="award-rockin-sprint">
-                        <p></p>
+                        <h5 class="center">Perseverance</h5>
+                        <br>
+                        <p>This award was given by Laboratoria as a recognition of perseverance as the notes from one sprint
+                            to another upraised incredibly</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Contact Me Section-->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h4 class="white-text ">Let´s work together!</h4>
+                    <p class="grey-text text-lighten-4">Contact me at:</p>
+                    <ul>
+                        <li>
+                            <span>
+                                <img src="assets/icons/6.png" alt="icon-cel">
+                            </span>
+                            <a class="grey-text text-lighten-3" href="#!">993-325-162</a>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="assets/icon_2/5.png" alt="icon-cel">
+                            </span>
+                            <a class="grey-text text-lighten-3" href="#!">franshesca_94@hotmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Social Media:</h5>
+                    <ul>
+                        <li>
+                            <span>
+                                <img src="assets/icons/md.png" alt="Medium">
+                            </span>
+                            <a href="https://medium.com/@franshescaquezada">@franshescaquezada</a>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="assets/icons/github.png" alt="Github">
+                            </span>
+                            <a href="https://github.com/franshescaqm">franshescaqm</a>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="assets/icons/in.png" alt="LinkedIn">
+                            </span>
+                            <a href="https://www.linkedin.com/in/franshesca-quezada-249826159/">franshesca-quezada</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container footer">
+                ©Copyright Franshesca Quezada Monzón
+            </div>
+        </div>
+    </footer>
 
 
     <!--Import jQuery before materialize.js-->

@@ -158,3 +158,17 @@
   .icon-size{
     width: 8em;
   }
+
+  /*Footer*/
+  .page-footer{
+    background-color: #7e57c2;
+  }
+
+  .footer-copyright {
+    background-color: #673ab7 !important;
+  }
+
+  a {
+    list-style: none;
+    color: #fff;
+  }
