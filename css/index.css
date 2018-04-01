@@ -35,7 +35,7 @@
 }
 
   .image-div {
-    background-image: url('../assets/img/driveway.jpg');
+    background-image: url('../assets/img/driveway-2.jpg');
     z-index: 1; 
     background-position: center top;
     background-size: cover;
@@ -46,7 +46,7 @@
 
   @media (max-width: 991px) { 
     .image-div {
-        background-image: url('../assets/img/driveway.jpg');
+        background-image: url('../assets/img/driveway-2.jpg');
         z-index: 1; 
         background-position: center top;
         background-size: cover;
@@ -121,7 +121,7 @@
    /*Portafolio*/
 
    .second-image-div {
-    background-image: url('../assets/img/busy-city.jpg');
+    background-image: url('../assets/img/busy-city-2.jpg');
     background-position: left top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@
 
   @media (max-width: 991px) { 
     .second-image-div {
-      background-image: url('../assets/img/busy-city.jpg');
+      background-image: url('../assets/img/lonely-road-2.jpg');
       background-position: left top;
       background-size: cover;
       background-repeat: no-repeat;
